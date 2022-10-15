@@ -1,9 +1,12 @@
+using Domain.Interfaces;
+using ZaplanujTo.Application.Common.Persistence.Base;
+
 namespace ZaplanujTo.Infrastructure.Persistence.Base;
 
 // ToDo
 virtual class Repository<TEntity, TContext> : IRepository<TEntity> 
     where TEntity : class, IEntity
-    where TContext : MongoDataContext
+    where TContext : MongoDbContext
 {
     protected readonly TContext Context;
 
