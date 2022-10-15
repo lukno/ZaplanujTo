@@ -8,9 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ZaplanujTo.API
 build_property.RootNamespace = ZaplanujTo.API
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\lukas\OneDrive\Pulpit\ToDoApp\src\ZaplanujTo.API\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lukas\OneDrive\Pulpit\ToDoApp\src\ZaplanujTo.API
+=======
 build_property.ProjectDir = /Users/tomaszzajac/Desktop/Projects/ZaplanujTo/src/ZaplanujTo.API/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/tomaszzajac/Desktop/Projects/ZaplanujTo/src/ZaplanujTo.API
+>>>>>>> Master
 build_property._RazorSourceGeneratorDebug = 
