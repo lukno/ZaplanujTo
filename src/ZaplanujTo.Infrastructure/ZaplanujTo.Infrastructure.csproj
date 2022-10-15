@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\Domain\Domain.csproj" />
+    <ProjectReference Include="..\ZaplanujTo.Application\ZaplanujTo.Application.csproj" />
+  </ItemGroup>
+
 </Project>

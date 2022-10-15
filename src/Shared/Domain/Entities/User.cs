@@ -4,5 +4,5 @@ namespace Domain.Entities;
 
 public class User : IEntity
 {
-    string Id { get; set; }
+    string IBaseEntity<string>.Id { get; set; }
 }
