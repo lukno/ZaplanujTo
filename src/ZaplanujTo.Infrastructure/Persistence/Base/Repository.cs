@@ -4,7 +4,7 @@ using ZaplanujTo.Application.Common.Persistence.Base;
 namespace ZaplanujTo.Infrastructure.Persistence.Base;
 
 // ToDo
-virtual class Repository<TEntity, TContext> : IRepository<TEntity> 
+internal class Repository<TEntity, TContext> : IRepository<TEntity> 
     where TEntity : class, IEntity
     where TContext : MongoDbContext
 {
